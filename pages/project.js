@@ -107,7 +107,7 @@ export default function Project() {
             <p className="text-center name mt-4 text-2xl">Korolina Hopman</p>
             <p className="mb-8">
               consectetur adipiscing elit. Suspendisse varius eros elementum
-              tristique. Duis cursus, mi quis viverra ornare."
+              tristique. Duis cursus, mi quis viverra ornare.
             </p>
           </div>
           <div className="testimonal_card">
@@ -116,7 +116,7 @@ export default function Project() {
             <p className="text-center name mt-4 text-2xl">Korolina Hopman</p>
             <p>
               consectetur adipiscing elit. Suspendisse varius eros elementum
-              tristique. Duis cursus, mi quis viverra ornare."
+              tristique. Duis cursus, mi quis viverra ornare.
             </p>
           </div>
           <div className="testimonal_card">
@@ -125,7 +125,7 @@ export default function Project() {
             <p className="text-center name mt-4 text-2xl">Korolina Hopman</p>
             <p>
               consectetur adipiscing elit. Suspendisse varius eros elementum
-              tristique. Duis cursus, mi quis viverra ornare."
+              tristique. Duis cursus, mi quis viverra ornare.
             </p>
           </div>
         </div>

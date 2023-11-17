@@ -71,7 +71,7 @@ export default function Donate() {
               <div className="flex testimo_text mt-8">
                 <img className="babe mr-4 ml-1" src="./babe.jpg" />
                 <div>
-                  <p> "Make big changes and help the world "</p>
+                  <p> Make big changes and help the world </p>
                   <p>
                     <span className="officer mt-2">Andry Polar</span> Donation
                     Officer

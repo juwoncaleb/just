@@ -123,7 +123,7 @@ export default function LandingPage() {
               <div className="flex testimo_text mt-8">
                 <img className="babe mr-4 ml-1" src="./babe.jpg" />
                 <div>
-                  <p> "Make big changes and help the world "</p>
+                  <p> Make big changes and help the world </p>
                   <p>
                     <span className="officer mt-2">Andry Polar</span> Donation
                     Officer
@@ -245,7 +245,7 @@ export default function LandingPage() {
               <p className="text-center name mt-8 text-2xl">Korolina Hopman</p>
               <p className="">
                 consectetur adipiscing elit. Suspendisse varius eros elementum
-                tristique. Duis cursus, mi quis viverra ornare."
+                tristique. Duis cursus, mi quis viverra ornare.
               </p>
             </div>
             <div className="testimonal_card">
@@ -254,7 +254,7 @@ export default function LandingPage() {
               <p className="text-center name mt-8 text-2xl">Korolina Hopman</p>
               <p>
                 consectetur adipiscing elit. Suspendisse varius eros elementum
-                tristique. Duis cursus, mi quis viverra ornare."
+                tristique. Duis cursus, mi quis viverra ornare.
               </p>
             </div>
             <div className="testimonal_card">
@@ -263,7 +263,7 @@ export default function LandingPage() {
               <p className="text-center name mt-8 text-2xl">Korolina Hopman</p>
               <p>
                 consectetur adipiscing elit. Suspendisse varius eros elementum
-                tristique. Duis cursus, mi quis viverra ornare."
+                tristique. Duis cursus, mi quis viverra ornare.
               </p>
             </div>
           </div>
