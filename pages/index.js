@@ -1,13 +1,10 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import Main from "./main";
+import React from 'react'
+import LandingPage from './LandingPage'
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+export default function index() {
   return (
-    <div className="whole">
-      <Main />
+    <div className='main_div'>
+<LandingPage/>
     </div>
-  );
+  )
 }
