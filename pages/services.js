@@ -21,7 +21,7 @@ export default function Project() {
               <div>
                 <p className="center">Device Contributions</p>
                 <p className="lore">
-                Do you have any unused electronic devices? Contribute to our mission by sending them our way. Whether you're an individual with a smartphone or a business with a surplus of laptops, your contribution plays a vital role in reducing electronic waste and empowering underserved communities.
+                Do you have any unused electronic devices? Contribute to our mission by sending them our way. Whether you are an individual with a smartphone or a business with a surplus of laptops, your contribution plays a vital role in reducing electronic waste and empowering underserved communities.
                 </p>
                 <div className="lin"></div>
              

@@ -156,7 +156,7 @@ export default function About() {
           <div className="kidd_divv mt-6">
             <p className="kidd_sub">
               Collection and Assessment At JustUsed, our process begins with the
-              responsible collection of electronic devices. Whether you're an
+              responsible collection of electronic devices. Whether you are an
               individual, a business, or an educational institution, you can
               contribute to a more sustainable future by sending us your unused
               devices. Our team carefully assesses each device to determine its
@@ -207,7 +207,7 @@ export default function About() {
           Environmental Impact          </p>
           <div className="kidd_divv mt-6">
             <p className="kidd_sub">
-            As devices are diverted from landfills and given a second life, our collective efforts contribute to a significant reduction in electronic waste. Our commitment to environmental sustainability goes beyond words; it's a tangible impact on reducing the ecological footprint and conserving valuable resources.
+            As devices are diverted from landfills and given a second life, our collective efforts contribute to a significant reduction in electronic waste. Our commitment to environmental sustainability goes beyond words it is a tangible impact on reducing the ecological footprint and conserving valuable resources.
 
             </p>
           </div>
@@ -222,7 +222,7 @@ export default function About() {
                     </p>
           <div className="kidd_divv mt-6">
             <p className="kidd_sub">
-            Our journey doesn't end with a sale or a donation. JustUsed is committed to continuous innovation and impact. We actively seek partnerships, participate in competitions, and explore new avenues to expand our reach, ensuring that our mission of sustainability and community empowerment grows stronger with each passing day.
+            Our journey does not end with a sale or a donation. JustUsed is committed to continuous innovation and impact. We actively seek partnerships, participate in competitions, and explore new avenues to expand our reach, ensuring that our mission of sustainability and community empowerment grows stronger with each passing day.
 
             </p>
           </div>
