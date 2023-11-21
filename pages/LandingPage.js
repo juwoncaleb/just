@@ -5,13 +5,13 @@ import Footer from "./components/footer";
 export default function LandingPage() {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <div className="landingpage">
         <div className="div hero_div flex justify-between">
           <div className="htext">
             <p className="hero_text">
-              Welcome to Just Used, redefining the life cycle of electronic
-              devices.{" "}
+              JUST USED - Redefining the life Cycle of electronic
+              Devices.{" "}
             </p>
 
             <div className="sub_hero mt-6">
@@ -178,71 +178,76 @@ export default function LandingPage() {
             <img className="kids" src="./kids.png" />
           </div>
           <div className="grid grid-cols-2 md:ml-12 child  gap-8">
-            <div className="card">
-              {" "}
-              <center>
-                <img
-                  width="50"
-                  className="mb-6"
-                  height="64"
-                  src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/ff6803/external-school-city-scape-xnimrodx-lineal-xnimrodx.png"
-                  alt="external-school-city-scape-xnimrodx-lineal-xnimrodx"
-                />
-              </center>
-              <p className="mb-2 card_head">SCHOOOLS</p>
-              <p>
-                Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-                tum etiam.
-              </p>
-            </div>
-            <div className="card">
-              <center>
-                <img
-                  className="mb-6"
-                  width="50"
-                  height="64"
-                  src="https://img.icons8.com/laces/64/ff6803/like.png"
-                  alt="like"
-                />
-              </center>
-              <p className="mb-2 card_head">LOVE</p>
-              <p>
-                Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-                tum etiam.
-              </p>
-            </div>
-            <div className="card">
-              <center>
-                <img
-                  className="mb-6"
-                  width="50"
-                  height="50"
-                  src="https://img.icons8.com/ios/50/ff6803/trust--v1.png"
-                  alt="trust--v1"
-                />
-              </center>
-              <p className="mb-2 card_head">CARE</p>
-              <p>
-                Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-                tum etiam.
-              </p>
-            </div>
-            <div className="card">
-              <center>
-                <img
-                  className="mb-6"
-                  width="50"
-                  height="50"
-                  src="https://img.icons8.com/ios/50/ff6803/read.png"
-                  alt="read"
-                />
-              </center>
-              <p className="mb-2 card_head">LEARN</p>
-              <p>
-                Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-                tum etiam.
-              </p>
-            </div>
+          <div className="card">
+            {" "}
+            <center>
+              <img
+                width="50"
+                className="mb-6"
+                height="64"
+                src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/ff6803/external-school-city-scape-xnimrodx-lineal-xnimrodx.png"
+                alt="external-school-city-scape-xnimrodx-lineal-xnimrodx"
+              />
+            </center>
+            <p className="mb-2 card_head">What We Do</p>
+            <p>
+              Our mission is clear. Transforming Electronic device them from
+              mere gadgets into agents of change. We focus on two pillars:
+              environmental sustainability and community empowerment.
+            </p>
+          </div>
+          <div className="card">
+            <center>
+              <img
+                className="mb-6"
+                width="50"
+                height="50"
+                src="https://img.icons8.com/ios/50/ff6803/read.png"
+                alt="read"
+              />
+            </center>
+            <p className="mb-2 card_head">How we do it:</p>
+            <p>
+              Our story is marked by tangible milestones that showcase the real
+              impact of our hard work. From empowering over 7,000 individuals in
+              Africa to providing 20 corporate
+            </p>
+          </div>
+          <div className="card">
+            <center>
+              <img
+                className="mb-6"
+                width="50"
+                height="64"
+                src="https://img.icons8.com/laces/64/ff6803/like.png"
+                alt="like"
+              />
+            </center>
+            <p className="mb-2 card_head">Environmental Sustainability</p>
+            <p>
+              Leveraging cutting-edge technology solutions, we actively engage
+              in a circular economy, reducing electronic waste, and cultivating
+              a sustainable future.
+            </p>
+          </div>
+          <div className="card">
+            <center>
+              <img
+                className="mb-6"
+                width="50"
+                height="50"
+                src="https://img.icons8.com/ios/50/ff6803/trust--v1.png"
+                alt="trust--v1"
+              />
+            </center>
+            <p className="mb-2 card_head">Community Empowerment</p>
+            <p>
+              Founded on the belief in sustainability and community empowerment,
+              our journey extends beyond being a venture. At Just Used, we are
+              committed to environmental sustainability and digital inclusion,
+              striving to create a future where technology is accessible to all.
+            </p>
+          </div>
           </div>
         </div>
       </div>

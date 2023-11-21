@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Donate() {
   return (
     <div className="doo">
-      {/* <White /> */}
+      <White />
       <div className="video_div">
         <center>
           <p className="mission mt-4">Donate now to help</p>

@@ -13,8 +13,8 @@ export default function Header() {
           <Link href="./about">
             <p className="head_ele tag mt-10"> About Us</p>
           </Link>
-          <Link href="./project">
-          <p className="head_ele tag mt-10"> Partner with us</p>
+          <Link href="./services">
+          <p className="head_ele tag mt-10"> Services</p>
           </Link>
           <Link href="./contact">
             <p className="head_ele tag mt-10 mr-14">Contact</p>

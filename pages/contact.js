@@ -5,7 +5,7 @@ import White from "./components/white";
 export default function Contact() {
   return (
     <div>
-      {/* <White /> */}
+      <White />
       <center>
         <p className="VIDEO_TEXT mt-20">Contact us</p>
         <p className="mission   mt-6 mb-3">Empower change - contact us </p>

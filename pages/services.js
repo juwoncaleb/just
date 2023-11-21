@@ -5,7 +5,7 @@ import White from "./components/white";
 export default function Project() {
   return (
     <div className="project_sub">
-   {/* <White/> */}
+   <White/>
       <div className="video_div">
         <center>
           <p className="VIDEO_TEXT">Partner with us</p>
@@ -53,16 +53,7 @@ export default function Project() {
                
               </div>
             </div>
-            <div className="grid proj_card gap-8 mb-6 grid-cols-2">
-              <img className="project_img" src="./hero.jpg" />
-              <div>
-                <p className="center">Sponsorship and Donations</p>
-                <p className="lore">
-                Support our donation program by sponsoring devices or making financial contributions. Your sponsorship directly impacts young adults in underserved communities, providing them with access to technology and digital learning platforms.                </p>
-                <div className="lin"></div>
-               
-              </div>
-            </div>
+           
           </div>
           <button className="donte_sub mt-16 flex">
             Donate

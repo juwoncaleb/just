@@ -5,7 +5,7 @@ import White from "./components/white";
 export default function About() {
   return (
     <div className="about_suu">
-      {/* <White/> */}
+      <White/>
       <div className="video_div">
         <center>
           <p className="VIDEO_TEXT">LEARN MORE ABOUT US</p>
@@ -33,7 +33,7 @@ export default function About() {
           <img className="lap" src="./laptop.jpg" />
         </div>
         <div className="flex care justify-center gap-14 mb-8">
-          <div className="card">
+    <div className="card">
             {" "}
             <center>
               <img
