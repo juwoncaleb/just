@@ -5,93 +5,72 @@ import White from "./components/white";
 export default function Project() {
   return (
     <div className="project_sub">
-   <White/>
+   {/* <White/> */}
       <div className="video_div">
         <center>
-          <p className="VIDEO_TEXT">LEARN MORE ABOUT US</p>
+          <p className="VIDEO_TEXT">Partner with us</p>
           <p className="mission mt-4">Our mission is to help</p>
           <p className="mission">all the people in need</p>
           <p className="sub_video mt-4">
-            consectetur adipiscing elit. Praesent gravida tempus viverra. Sed
-            non pretium nibh, in tristique diam
+          At Just Used, we believe in the power of collaboration to drive positive change. Here are  ways you can join the Just Used movement
           </p>
           <p className="sub_video">conibh, in tristique diam</p>
           <div className=" mt-20 mb-8 gap-14">
             <div className="grid proj_card gap-8 grid-cols-2">
               <img className="project_img" src="./k3.jpg" />
               <div>
-                <p className="center">New Community Center</p>
+                <p className="center">Device Contributions</p>
                 <p className="lore">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare
+                Do you have any unused electronic devices? Contribute to our mission by sending them our way. Whether you're an individual with a smartphone or a business with a surplus of laptops, your contribution plays a vital role in reducing electronic waste and empowering underserved communities.
                 </p>
                 <div className="lin"></div>
-                <div className="flex donaa justify-between">
-                  <div>
-                    <p>$10,000</p>
-                    <p>Needed Donation</p>
-                  </div>
-                  <div>
-                    <p>$10,000</p>
-                    <p>Needed Donation</p>
-                  </div>
-                </div>
+             
               </div>
             </div>
             <div className="grid proj_card gap-8 grid-cols-2">
               <img className="project_img" src="./k2.jpg" />
               <div>
-                <p className="center">New Community Center</p>
+                <p className="center"> Corporate Collaboration</p>
                 <p className="lore">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare
+                Businesses can collaborate with Just Used to responsibly dispose of electronic devices. Through our corporate services, we ensure the proper collection and repurposing of devices, aligning your organization with environmental sustainability practices.
                 </p>
                 <div className="lin"></div>
                 <div className="flex donaa justify-between">
-                  <div>
-                    <p>$10,000</p>
-                    <p>Needed Donation</p>
-                  </div>
-                  <div>
-                    <p>$10,000</p>
-                    <p>Needed Donation</p>
-                  </div>
+                  
+               
                 </div>
               </div>
             </div>
 
-            <div className="grid proj_card gap-8 grid-cols-2">
+            <div className="grid proj_card gap-8 mb-6 grid-cols-2">
               <img className="project_img" src="./k1.jpg" />
               <div>
-                <p className="center">New Community Center</p>
+                <p className="center">Educational Partnerships</p>
                 <p className="lore">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare
+                Educational institutions can play a crucial role in our mission. Partner with us to implement collection programs within your school or university, instilling sustainability values among students while contributing to a circular economy.
                 </p>
                 <div className="lin"></div>
-                <div className="flex donaa justify-between">
-                  <div>
-                    <p>$10,000</p>
-                    <p>Needed Donation</p>
-                  </div>
-                  <div>
-                    <p>$10,000</p>
-                    <p>Needed Donation</p>
-                  </div>
-                </div>
+               
+              </div>
+            </div>
+            <div className="grid proj_card gap-8 mb-6 grid-cols-2">
+              <img className="project_img" src="./hero.jpg" />
+              <div>
+                <p className="center">Sponsorship and Donations</p>
+                <p className="lore">
+                Support our donation program by sponsoring devices or making financial contributions. Your sponsorship directly impacts young adults in underserved communities, providing them with access to technology and digital learning platforms.                </p>
+                <div className="lin"></div>
+               
               </div>
             </div>
           </div>
-          <button className="donte_sub mt-10 flex">
+          <button className="donte_sub mt-16 flex">
             Donate
             <img className="ml-3" src="./arrow.png" />
           </button>
         </center>
       </div>
-      <center className="project_test">
+      <center className="project_test div">
         <p className="VIDEO_TEXT">TESTIMONIAL</p>
         <p className="mission mt-4">What hundreds of happy</p>
         <p className="mission">communites are saying</p>
@@ -100,7 +79,7 @@ export default function Project() {
           pretium nibh, in tristique diam
         </p>
         <p className="sub_video">conibh, in tristique diam</p>
-        <div className="flex justify-center gap-10 mt-14 ">
+        <div className="flex proje_test justify-center gap-10 mt-14 ">
           <div className="testimonal_card">
             {" "}
             <img className="babe mr-4 ml-1" src="./babe.jpg" />

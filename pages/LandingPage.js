@@ -5,20 +5,22 @@ import Footer from "./components/footer";
 export default function LandingPage() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <div className="landingpage">
-        <div className="div flex justify-between">
-          <div>
-            <p className="hero_text">Make big</p>
-            <p className="hero_text">Changes and</p>
-            <p className="hero_text">Help the world</p>
+        <div className="div hero_div flex justify-between">
+          <div className="htext">
+            <p className="hero_text">
+              Welcome to Just Used, redefining the life cycle of electronic
+              devices.{" "}
+            </p>
+
             <div className="sub_hero mt-6">
               <p className="lorem">
-                We design and develop modern web solutions with a professional
-                design using latest technologies and trends.
+                Prolonging life cycles, reducing e-waste, and bridging the
+                digital divide
               </p>
             </div>
-            <div className="mt-16 flex">
+            <div className="mt-16 coll flex">
               <div>
                 <img className="butter" src="./butter.png" />
               </div>
@@ -61,25 +63,66 @@ export default function LandingPage() {
             </div>
           </div>
 
-          <div className="flex">
+          <div className="flex hero_tab">
             <img className="sun" src="./sun.png" />
             <img className="hero" src="./hero.jpg" />
+          </div>
+          <div className="mt-16 subclo flex">
+            <div>
+              <img className="butter" src="./butter.png" />
+            </div>
+            <button className="donte_sub flex">
+              Donate
+              <img className=" ar" src="./arrow.png" />
+            </button>
+            <div className="mr-8">
+              <p className="text-center floow">Follow us</p>
+              <div className="flex ml-8 mt-3">
+                <div className="socia">
+                  <img
+                    className="ml-1 mt-1 mr-1"
+                    width="25"
+                    height="50"
+                    src="https://img.icons8.com/ios-filled/50/1A1A1A/instagram-new--v1.png"
+                    alt="instagram-new--v1"
+                  />
+                </div>
+                <div className="socia">
+                  <img
+                    className="ml-1 mt-1 mr-1"
+                    width="25"
+                    height="50"
+                    src="https://img.icons8.com/ios-filled/50/1A1A1A/twitter.png"
+                    alt="twitter"
+                  />
+                </div>
+                <div className="socia">
+                  <img
+                    className="ml-1 mt-1 mr-1"
+                    width="25"
+                    height="48"
+                    src="https://img.icons8.com/fluency-systems-regular/48/1A1A1A/linkedin.png"
+                    alt="linkedin"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div className="sponsor ">
-        <div className="div flex justify-between">
+        <div className="div flex spon justify-between">
           <div>
-            <p className="sponsor_text">Our Generous </p>
-            <p className="sponsor_text">Sponsors</p>
+            <p className="sponsor_text">Redefining the life cycle of electronic devices  </p>
+         
+
             <div className="flex sub mt-10">
               <div className="div_color flex">
                 <img className="check mr-4" src="./check.png" />
               </div>
               <p className="ml-4">
                 {" "}
-                Aenean faucibus justo cursus lorem imperdiet.
-              </p>
+                Prolonging life cycles, reducing e-waste, and bridging the digital divide              </p>
             </div>
             <div className="flex sub mt-2">
               <div className="div_color flex">
@@ -91,12 +134,12 @@ export default function LandingPage() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-3 gap-6 sponn">
             <img className="company" src="./c1.svg" />
             <img className="company" src="./c2.svg" />
             <img className="company" src="./c3.svg" />
-            <img className="company" src="./c4.svg" />
-            <img className="company c5" src="./c5.svg" />
+            <img className="company" src="./c6.svg" />
+            <img className="company" src="./c6.svg" />
             <img className="company" src="./c6.svg" />
           </div>
         </div>
@@ -105,8 +148,8 @@ export default function LandingPage() {
         </center>
       </div>
       <div className=" proj ">
-        <div className="div flex justify-center">
-          <div className="mr-14">
+        <div className="div project flex justify-center">
+          <div className="accom mr-14">
             <p className="success">SUCCESSFUL PROJECTS</p>
             <p className="results mt-6">
               Accomplished <br />
@@ -134,7 +177,7 @@ export default function LandingPage() {
             </div>
             <img className="kids" src="./kids.png" />
           </div>
-          <div className="grid grid-cols-2 gap-6 ml-8">
+          <div className="grid grid-cols-2 md:ml-12 child  gap-8">
             <div className="card">
               {" "}
               <center>
@@ -203,11 +246,12 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-      <div className="video_div">
+      <div className="video_div div">
         <center>
           <p className="VIDEO_TEXT">TAKE A LOOK AT OUT VIDEO</p>
-          <p className="mission mt-4">Our mission is to help</p>
-          <p className="mission">all the people in need</p>
+          <p className="mission mt-4">
+            Our mission is to help all the people in need
+          </p>
           <p className="sub_video mt-4">
             consectetur adipiscing elit. Praesent gravida tempus viverra. Sed
             non pretium nibh, in tristique diam
@@ -228,17 +272,18 @@ export default function LandingPage() {
           <img className="lap" src="./laptop.jpg" />
         </div>
       </div>
-      <div className="mt-20">
+      <div className="mt-20 div">
         <center>
           <p className="VIDEO_TEXT">TESTIMONIAL</p>
-          <p className="mission mt-4">What hundreds of happy</p>
-          <p className="mission">communites are saying</p>
+          <p className="mission mt-4">
+            What hundreds of happy communites are saying
+          </p>
           <p className="sub_video mt-4">
             consectetur adipiscing elit. Praesent gravida tempus viverra. Sed
             non pretium nibh, in tristique diam
           </p>
           <p className="sub_video">conibh, in tristique diam</p>
-          <div className="flex justify-center gap-14 mt-14 ">
+          <div className="flex justify-center ppl div gap-14 mt-14 ">
             <div className="testimonal_card">
               {" "}
               <img className="babe mr-4  ml-1" src="./babe.jpg" />

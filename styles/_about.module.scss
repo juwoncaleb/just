@@ -6,6 +6,7 @@
 }
 .kid_div {
   margin-top: 170px;
+  padding: 20px;
 }
 .kidd_sub {
   font-size: 24px;
@@ -59,13 +60,21 @@
   padding: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+.card {
+  text-align: left;
+}
+.card_head {
+  text-align: center !important;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 .donate_card {
   padding-top: 80px;
   height: 450px;
   width: 450px;
   background-color: #251600;
-color: white;
-border-radius: 35px;
+  color: white;
+  border-radius: 35px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -75,11 +84,97 @@ border-radius: 35px;
   width: 140px;
   border-radius: 50px;
   height: 40px;
-  margin-left: 30px;
+
   color: white;
   font-size: 21px;
   justify-content: center;
   justify-items: center;
   align-items: center;
   align-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .kidd_img {
+    border: 8px solid black;
+    border-radius: 20px;
+    width: 450px;
+    height: 290px;
+  }
+  .kidd_sub {
+    font-size: 20px;
+  }
+  .fo {
+    height: 200px;
+  }
+  .kiddo_head {
+    font-weight: 500;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .cofounders {
+    flex-direction: column;
+    align-items: center;
+  }
+  .newsletter {
+    flex-direction: column;
+  }
+  .kid_div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .care {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cofounderz {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .donte_ub {
+    background-color: #ff6803;
+    width: 180px;
+    border-radius: 50px;
+    height: 40px;
+    margin-left: 0px;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+  .donate_card {
+    padding-top: 20px;
+    height: 350px;
+    width: 350px;
+    background-color: #251600;
+    color: white;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .inoutt {
+    height: 50px;
+    width: 200px;
+    padding-left: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .subscribe_btn {
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
 }

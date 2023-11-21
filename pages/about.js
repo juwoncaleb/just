@@ -5,19 +5,21 @@ import White from "./components/white";
 export default function About() {
   return (
     <div className="about_suu">
-      <White/>
+      {/* <White/> */}
       <div className="video_div">
         <center>
           <p className="VIDEO_TEXT">LEARN MORE ABOUT US</p>
-          <p className="mission mt-4">Our mission is to help</p>
-          <p className="mission">all the people in need</p>
+          <p className="mission mt-4">
+            Get to know us, be a part of the change,
+          </p>
+          <p className="mission">and join the movement.</p>
           <p className="sub_video mt-4">
             consectetur adipiscing elit. Praesent gravida tempus viverra. Sed
             non pretium nibh, in tristique diam
           </p>
           <p className="sub_video">conibh, in tristique diam</p>
           <button className="donte_ub mt-6 flex">
-            Get Started
+            Get to Know us
             <div className="heart_div">
               <img className="ml-1" src="./arrow.png" />
             </div>
@@ -30,7 +32,7 @@ export default function About() {
         <div className="flex justify-center">
           <img className="lap" src="./laptop.jpg" />
         </div>
-        <div className="flex justify-center gap-14 mb-8">
+        <div className="flex care justify-center gap-14 mb-8">
           <div className="card">
             {" "}
             <center>
@@ -42,10 +44,11 @@ export default function About() {
                 alt="external-school-city-scape-xnimrodx-lineal-xnimrodx"
               />
             </center>
-            <p className="mb-2 card_head">SCHOOOLS</p>
+            <p className="mb-2 card_head">What We Do</p>
             <p>
-              Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-              tum etiam.
+              Our mission is clear. Transforming Electronic device them from
+              mere gadgets into agents of change. We focus on two pillars:
+              environmental sustainability and community empowerment.
             </p>
           </div>
           <div className="card">
@@ -58,14 +61,15 @@ export default function About() {
                 alt="like"
               />
             </center>
-            <p className="mb-2 card_head">LOVE</p>
+            <p className="mb-2 card_head">Environmental Sustainability</p>
             <p>
-              Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-              tum etiam.
+              Leveraging cutting-edge technology solutions, we actively engage
+              in a circular economy, reducing electronic waste, and cultivating
+              a sustainable future.
             </p>
           </div>
         </div>
-        <div className="flex justify-center gap-14 middle">
+        <div className="flex care justify-center gap-14 middle">
           <div className="card">
             <center>
               <img
@@ -76,10 +80,12 @@ export default function About() {
                 alt="trust--v1"
               />
             </center>
-            <p className="mb-2 card_head">CARE</p>
+            <p className="mb-2 card_head">Community Empowerment</p>
             <p>
-              Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-              tum etiam.
+              Founded on the belief in sustainability and community empowerment,
+              our journey extends beyond being a venture. At Just Used, we are
+              committed to environmental sustainability and digital inclusion,
+              striving to create a future where technology is accessible to all.
             </p>
           </div>
           <div className="card">
@@ -92,26 +98,30 @@ export default function About() {
                 alt="read"
               />
             </center>
-            <p className="mb-2 card_head">LEARN</p>
+            <p className="mb-2 card_head">How we do it:</p>
             <p>
-              Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-              tum etiam.
+              Our story is marked by tangible milestones that showcase the real
+              impact of our hard work. From empowering over 7,000 individuals in
+              Africa to providing 20 corporate
             </p>
           </div>
         </div>
       </div>
-      <div className="sponsor  ">
-        <div className="div flex justify-between">
+      <div className="sponsor ">
+        <div className="div flex spon justify-between">
           <div>
-            <p className="sponsor_text">Our Generous </p>
-            <p className="sponsor_text">Sponsors</p>
+            <p className="sponsor_text">
+              Redefining the life cycle of electronic devices{" "}
+            </p>
+
             <div className="flex sub mt-10">
               <div className="div_color flex">
                 <img className="check mr-4" src="./check.png" />
               </div>
               <p className="ml-4">
                 {" "}
-                Aenean faucibus justo cursus lorem imperdiet.
+                Prolonging life cycles, reducing e-waste, and bridging the
+                digital divide{" "}
               </p>
             </div>
             <div className="flex sub mt-2">
@@ -124,12 +134,12 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-3 gap-6 sponn">
             <img className="company" src="./c1.svg" />
             <img className="company" src="./c2.svg" />
             <img className="company" src="./c3.svg" />
-            <img className="company" src="./c4.svg" />
-            <img className="company c5" src="./c5.svg" />
+            <img className="company" src="./c6.svg" />
+            <img className="company" src="./c6.svg" />
             <img className="company" src="./c6.svg" />
           </div>
         </div>
@@ -141,34 +151,82 @@ export default function About() {
         <img className="kidd_img" src="./kiddo.jpg" />
         <div>
           <p className="kiddo_head mt-4">
-            The inspiration for a new way <br /> to solve the issues.
+            How it works <br />
           </p>
           <div className="kidd_divv mt-6">
             <p className="kidd_sub">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat. Aenean faucibus nibh et justo cursus.
+              Collection and Assessment At JustUsed, our process begins with the
+              responsible collection of electronic devices. Whether you're an
+              individual, a business, or an educational institution, you can
+              contribute to a more sustainable future by sending us your unused
+              devices. Our team carefully assesses each device to determine its
+              condition and potential for reuse.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="justify-around sec kid_div flex gap-10">
+      <div className="justify-around div sec kid_div flex gap-10">
         <div>
           <p className="kiddo_head mt-4">
-            The inspiration for a new way <br /> to solve the issues.
+          Circular Economy in Action
           </p>
           <div className="kidd_divv mt-6">
-            <p className="kidd_sub">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat. Aenean faucibus nibh et justo cursus.
+          <p className="kidd_sub">
+          Once the devices are collected, we leverage cutting-edge technology solutions to implement a circular economy. Rather than letting these electronics contribute to the growing e-waste problem, we focus on extending their lifecycle. Devices that meet our standards are prepared for resale or repurposing, contributing to a more sustainable tech ecosystem.
+
             </p>
           </div>
         </div>
         <img className="kidd_img" src="./vil.jpg" />
+      </div>
+      <div className="justify-around kid_div flex gap-10">
+        <img className="kidd_img" src="./kiddo.jpg" />
+        <div>
+          <p className="kiddo_head mt-4">
+            Empowering Communities
+            <br />
+          </p>
+          <div className="kidd_divv mt-6">
+         
+            <p className="kidd_sub">
+              A significant part of our mission involves community empowerment.
+              For every device sold, a portion is dedicated to our donation
+              program. Young adults in underserved communities receive these
+              devices, providing them with access to technology and digital
+              learning platforms. This initiative aims to bridge the digital
+              divide, foster digital literacy, and support economic growth in
+              marginalized areas.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="justify-around div sec kid_div flex gap-10">
+        <div>
+          <p className="kiddo_head mt-4">
+          Environmental Impact          </p>
+          <div className="kidd_divv mt-6">
+            <p className="kidd_sub">
+            As devices are diverted from landfills and given a second life, our collective efforts contribute to a significant reduction in electronic waste. Our commitment to environmental sustainability goes beyond words; it's a tangible impact on reducing the ecological footprint and conserving valuable resources.
+
+            </p>
+          </div>
+        </div>
+        <img className="kidd_img" src="./vil.jpg" />
+      </div>
+      <div className="justify-around kid_div flex gap-10">
+        <img className="kidd_img" src="./kiddo.jpg" />
+        <div>
+          <p className="kiddo_head mt-4">
+          Continuous Innovation <br/> and Impact
+                    </p>
+          <div className="kidd_divv mt-6">
+            <p className="kidd_sub">
+            Our journey doesn't end with a sale or a donation. JustUsed is committed to continuous innovation and impact. We actively seek partnerships, participate in competitions, and explore new avenues to expand our reach, ensuring that our mission of sustainability and community empowerment grows stronger with each passing day.
+
+            </p>
+          </div>
+        </div>
       </div>
       <div className="div">
         <div className="flex cofounders justify-between">
@@ -181,7 +239,7 @@ export default function About() {
           </button>
         </div>
       </div>
-      <div className="flex justify-center gap-12 mt-20">
+      <div className="flex cofounders justify-center gap-12 mt-20">
         <div className="founder">
           <img className="fo" src="./t1.jpg" />
           <p className="found_name">Marina Troy</p>

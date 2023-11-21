@@ -11,10 +11,10 @@ export default function White() {
             <p className="head_ele tag  mt-10"> Home</p>
           </Link>
           <Link href="./about">
-            <p className="head_ele tag mt-10"> About</p>
+            <p className="head_ele tag mt-10"> About Us</p>
           </Link>
           <Link href="./project">
-            <p className="head_ele tag mt-10"> Project</p>
+            <p className="head_ele tag mt-10"> Partner with us</p>
           </Link>
           <Link href="./contact">
             <p className="head_ele tag mt-10 mr-14">Contact</p>

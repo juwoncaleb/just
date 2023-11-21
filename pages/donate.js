@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "./components/header";
 import White from "./components/white";
+import Link from "next/link";
 
 export default function Donate() {
   return (
     <div className="doo">
-      <White />
+      {/* <White /> */}
       <div className="video_div">
         <center>
           <p className="mission mt-4">Donate now to help</p>
@@ -27,11 +28,17 @@ export default function Donate() {
               <p className="instruction">
                 Please click the button below to donate money
               </p>
-              <button className="donte_subl flex">
-                Donate
-                <img className="ml-1" src="./arrow.png" />
-              </button>
+              <Link
+                href="              https://tinyurl.com/justusedtech-donate
+"
+              >
+                <button className="donte_subl flex">
+                  Donate
+                  <img className="ml-1" src="./arrow.png" />
+                </button>
+              </Link>
             </div>
+
             <div className="donate_card">
               <img
                 width="100"
@@ -53,8 +60,8 @@ export default function Donate() {
         </center>
       </div>
       <div className=" proj ">
-        <div className="div flex justify-center">
-          <div className="mr-14">
+        <div className="div project flex justify-center">
+          <div className="accom mr-14">
             <p className="success">SUCCESSFUL PROJECTS</p>
             <p className="results mt-6">
               Accomplished <br />
@@ -82,7 +89,7 @@ export default function Donate() {
             </div>
             <img className="kids" src="./kids.png" />
           </div>
-          <div className="grid grid-cols-2 gap-6 ml-8">
+          <div className="grid grid-cols-2 md:ml-12 child  gap-8">
             <div className="card">
               {" "}
               <center>
