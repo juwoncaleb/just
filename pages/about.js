@@ -30,7 +30,7 @@ export default function About() {
 
       <div className="siege">
         <div className="flex justify-center">
-          <img className="lap" src="./laptop.jpg" />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YlCjhvj_yeM?si=RsSZKJ5ZqbgKNBuz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
         </div>
         <div className="flex care justify-center gap-14 mb-8">
     <div className="card">

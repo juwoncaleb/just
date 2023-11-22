@@ -1,7 +1,6 @@
 .logo {
-  width: 100px;
-  max-width: 100%;
-  height: auto;
+  width: 70px;
+  height: 70px;
 }
 .div {
   margin-left: 6%;
@@ -9,18 +8,17 @@
 }
 .head_ele {
   margin-right: 40px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
-
 }
-.headdiv{
-background-color: #DCE1C8;
+.headdiv {
+  background-color: #dce1c8;
 }
-.headdv{
+.headdv {
   background-color: white;
 }
 
-.tag{
+.tag {
   font-weight: 500;
 }
 .heartlogo {
@@ -38,4 +36,15 @@ background-color: #DCE1C8;
   height: 50px;
   width: 150px;
   background-color: #251600;
+  margin-left: auto;
+}
+@media only screen and (max-width: 770px) {
+  .desk {
+    display: none;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .mob {
+    display: none;
+  }
 }

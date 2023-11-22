@@ -18,7 +18,7 @@
 }
 .hero_text {
   font-family: "Archivo", sans-serif;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 500;
   line-height: 65px;
 }
@@ -52,7 +52,7 @@
   background-color: #ff6803;
   width: 180px;
   border-radius: 50px;
-  height: 70px;
+  height: 60px;
   margin-left: 30px;
   color: white;
   font-size: 26px;
@@ -286,6 +286,8 @@
 }
 .siege {
   background-color: #dce1c8;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .name {
   font-weight: 500;
@@ -408,7 +410,6 @@
     width: 250px;
     text-align: center;
     padding-top: 25px;
-    height: 250px;
     font-weight: 300;
     align-items: center;
     align-content: center;

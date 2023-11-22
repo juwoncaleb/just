@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 .logo {
-  width: 100px;
-  max-width: 100%;
-  height: auto;
+  width: 70px;
+  height: 70px;
 }
 
 .div {
@@ -14,12 +13,12 @@
 
 .head_ele {
   margin-right: 40px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .headdiv {
-  background-color: #DCE1C8;
+  background-color: #dce1c8;
 }
 
 .headdv {
@@ -46,8 +45,19 @@
   height: 50px;
   width: 150px;
   background-color: #251600;
+  margin-left: auto;
 }
 
+@media only screen and (max-width: 770px) {
+  .desk {
+    display: none;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .mob {
+    display: none;
+  }
+}
 .landingpage {
   background-color: #dce1c8;
   padding-top: 80px;
@@ -71,7 +81,7 @@
 
 .hero_text {
   font-family: "Archivo", sans-serif;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 500;
   line-height: 65px;
 }
@@ -109,7 +119,7 @@
   background-color: #ff6803;
   width: 180px;
   border-radius: 50px;
-  height: 70px;
+  height: 60px;
   margin-left: 30px;
   color: white;
   font-size: 26px;
@@ -379,6 +389,8 @@
 
 .siege {
   background-color: #dce1c8;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .name {
@@ -508,7 +520,6 @@
     width: 250px;
     text-align: center;
     padding-top: 25px;
-    height: 250px;
     font-weight: 300;
     align-items: center;
     align-content: center;
@@ -782,6 +793,23 @@
 .widget {
   max-width: 600px;
   height: 700px;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: #dce1c8;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  font-family: "Archivo", sans-serif;
+}
+
+.tabs {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer_marg {
+  margin-right: 20px !important;
 }
 
 .middle {

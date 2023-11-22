@@ -10,7 +10,7 @@ export default function LandingPage() {
         <div className="div hero_div flex justify-between">
           <div className="htext">
             <p className="hero_text">
-              JUST USED - Redefining the life Cycle of electronic
+               Redefining the life Cycle of electronic
               Devices.{" "}
             </p>
 
@@ -274,8 +274,8 @@ export default function LandingPage() {
 
       <div className="siege">
         <div className="flex justify-center">
-          <img className="lap" src="./laptop.jpg" />
-        </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YlCjhvj_yeM?si=RsSZKJ5ZqbgKNBuz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+            </div>
       </div>
       <div className="mt-20 div">
         <center>
