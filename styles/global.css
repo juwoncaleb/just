@@ -67,7 +67,7 @@
 .hero {
   height: 450px;
   border: 12px solid #251600;
-  margin-right: 70px;
+  margin-right: 0px;
   border-radius: 30px;
   z-index: 2;
 }
