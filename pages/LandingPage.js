@@ -111,7 +111,7 @@ export default function LandingPage() {
               duration: 0.6,
             }}
           >
-            <div className="flex hero_tab">
+            <div className="flex div hero_tab">
               <img className="sun" src="./sun.png" />
               <div>
               <img className="hero" src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />

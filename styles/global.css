@@ -804,6 +804,9 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+  .butt {
+    width: 200px;
+  }
 }
 .logo_foot {
   max-width: 400px;
