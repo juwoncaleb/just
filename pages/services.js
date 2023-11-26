@@ -33,7 +33,7 @@ export default function Project() {
             <p className="sub_video mt-10">
               By donating your used devices, your corporation not only
               contributes to a greener planet but actively fosters digital
-              inclusion and education. Here's how your corporation and JustUsed
+              inclusion and education. Here is how your corporation and JustUsed
               can mutually benefit: Benefits for Corporations
             </p>
           </div>
@@ -241,7 +241,7 @@ export default function Project() {
       </div>
       <div className="flex justify-around div newsletter">
         <div className="subscribe text-center mt-6">
-          <p>Let's keep </p>
+          <p>Let us keep </p>
           <p>in Touch</p>
           <img className="sun " src="./sun.png" />
         </div>

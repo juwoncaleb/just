@@ -165,7 +165,7 @@ export default function Donate() {
       </div>
       <div className="flex justify-around div newsletter">
         <div className="subscribe mt-6">
-          <p>Let's keep </p>
+          <p>Let us keep </p>
           <p>in Touch</p>
           <img className="sun ml-14 " src="./sun.png" />
         </div>
