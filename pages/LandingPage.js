@@ -12,7 +12,15 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function LandingPage() {
-  const images = Array.from({ length: 5 }, (_, index) => `/l${index + 1}.jpg`);
+  const images = [
+    "/l1.jpg",
+    "/l2.jpg",
+    "/l3.jpg",
+    "/l4.jpg",
+    "/l5.jpg",
+    // Add more paths if needed
+  ];
+
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -22,7 +30,7 @@ export default function LandingPage() {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [images]);
   return (
     <div>
       <Header />
@@ -106,7 +114,7 @@ export default function LandingPage() {
             <div className="flex hero_tab">
               <img className="sun" src="./sun.png" />
               <div>
-                <img className="hero" src={images[currentImageIndex]} />
+              <img className="hero" src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
               </div>{" "}
             </div>
           </motion.div>
