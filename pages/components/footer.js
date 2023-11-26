@@ -8,10 +8,10 @@ export default function Footer() {
         <Link href="./" className=" md:mr-14 mr-2">
           Home
         </Link>
-        <Link href="./about" className="md:mr-14 mr-2">
+      <Link href="./about" className="md:mr-14 mr-2">
           About Us
         </Link>
-        <Link href="./service" className="md:mr-14 mr-2">
+        <Link href="./services" className="md:mr-14 mr-2">
           Service
         </Link>
         <Link href="./contact" className="md:mr-14 mr-2">

@@ -2,7 +2,14 @@ import React from "react";
 import Header from "./components/header";
 import White from "./components/white";
 import Link from "next/link";
-
+import {
+  AnimatePresence,
+  motion,
+  stagger,
+  useScroll,
+  useTransform,
+} from "framer-motion";
+import Footer from "./components/footer";
 export default function Donate() {
   return (
     <div className="doo">
@@ -11,11 +18,7 @@ export default function Donate() {
         <center>
           <p className="mission mt-4">Donate now to help</p>
           <p className="mission">those in need</p>
-          <p className="sub_video mt-4">
-            consectetur adipiscing elit. Praesent gravida tempus viverra. Sed
-            non pretium nibh, in tristique diam
-          </p>
-          <p className="sub_video">conibh, in tristique diam</p>
+
           <div className="flex justify-center gap-14 section">
             <div className="donate_card">
               <img
@@ -51,10 +54,12 @@ export default function Donate() {
               <p className="instruction">
                 Please click the button below to donate money
               </p>
-              <button className="donte_subl flex">
-                Donate
-                <img className="ml-1" src="./arrow.png" />
-              </button>
+              <Link href="https://buy.stripe.com/test_28oeYH36r0W6fyE001">
+                <button className="donte_subl flex">
+                  Donate
+                  <img className="ml-1" src="./arrow.png" />
+                </button>
+              </Link>
             </div>
           </div>
         </center>
@@ -160,8 +165,8 @@ export default function Donate() {
       </div>
       <div className="flex justify-around div newsletter">
         <div className="subscribe mt-6">
-          <p>Subscribe to our monthly </p>
-          <p>email newsletter!</p>
+          <p>Let's keep </p>
+          <p>in Touch</p>
           <img className="sun ml-14 " src="./sun.png" />
         </div>
         <div className="mt-8">
@@ -170,6 +175,7 @@ export default function Donate() {
           <img className="flowe" src="./flower.png" />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

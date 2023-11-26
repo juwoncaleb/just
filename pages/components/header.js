@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -10,7 +10,10 @@ export default function Header() {
     <div className="headdiv">
       {/* DESKTOP */}
       <div className="flex div desk justify-between">
+        <Link href='./'>
         <img className="logo" src="./logo.png" />
+
+        </Link>
         <div className="flex">
           <Link href="./">
             <p className="head_ele tag  mt-10"> Home</p>
