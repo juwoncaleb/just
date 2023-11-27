@@ -10,10 +10,12 @@ import {
   useTransform,
 } from "framer-motion";
 import Link from "next/link";
+import VoiceflowIntegration from "./components/Voice";
 
 export default function Project() {
   return (
     <div className="project_sub">
+      <VoiceflowIntegration/>
       <White />
       <div className="video_div">
         <center className=" div">

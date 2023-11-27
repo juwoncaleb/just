@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import VoiceflowIntegration from "./components/Voice";
 import {
   AnimatePresence,
   motion,
@@ -616,6 +617,7 @@ export default function LandingPage() {
           </div> */}
         </center>
       </div>
+      <VoiceflowIntegration/>
       <Footer />
     </div>
   );

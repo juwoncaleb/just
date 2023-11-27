@@ -9,9 +9,11 @@ import {
   useScroll,
   useTransform,
 } from "framer-motion";
+import VoiceflowIntegration from "./components/Voice";
 export default function About() {
   return (
     <div className="about_suu">
+      <VoiceflowIntegration/>
       <White />
       <div className="video_div">
         <center>

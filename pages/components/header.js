@@ -7,7 +7,7 @@ export default function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <div className="headdiv">
+    <div className="headdiv ">
       {/* DESKTOP */}
       <div className="flex div desk justify-between">
         <Link href='./'>
