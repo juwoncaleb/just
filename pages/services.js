@@ -19,7 +19,7 @@ export default function Project() {
       <White />
       <div className="video_div">
         <center className=" div">
-          <p className="VIDEO_TEXT mb-10 mt-10">CORE SERVICE</p>
+          <p className="VIDEO_TEXT core mb-10 mt-10">CORE SERVICE</p>
           <div className="sponsor mb-14 ">
             <motion.div
               initial={{ opacity: 0, y: 30 }}

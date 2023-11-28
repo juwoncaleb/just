@@ -208,8 +208,9 @@ export default function LandingPage() {
                 </div>
                 <p className="ml-4">
                   {" "}
-                  Aenean faucibus justo cursus lorem imperdiet.
-                </p>
+                  Demonstrate your commitment to environmental
+                        sustainability by  recycling 
+                        used devices.                </p>
               </div>
             </div>
             <div className="grid grid-cols-3 gap-6 sponn">

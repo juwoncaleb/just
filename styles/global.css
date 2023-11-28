@@ -296,9 +296,13 @@
   padding-top: 150px;
 }
 
+.core {
+  font-size: 38px !important;
+}
+
 .VIDEO_TEXT {
   color: #ff6803;
-  font-size: 38px;
+  font-size: 20px;
   font-weight: 500;
   font-family: "Archivo", sans-serif;
 }
