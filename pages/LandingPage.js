@@ -474,7 +474,7 @@ export default function LandingPage() {
       </div>
       <div className="mt-20 div">
         <center>
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
@@ -484,7 +484,7 @@ export default function LandingPage() {
               duration: 0.6,
             }}
           >
-            {/* <p className="VIDEO_TEXT">TESTIMONIAL</p>
+            <p className="VIDEO_TEXT">TESTIMONIAL</p>
             <p className="mission mt-4">
               What hundreds of happy communites are saying
             </p>
