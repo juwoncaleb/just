@@ -29,7 +29,7 @@ export default function About() {
           >
             <p className="VIDEO_TEXT">LEARN MORE ABOUT US</p>
             <p className="mission mt-4">Get to know us</p>
-            <p className="mission mt-4">Be the change,</p>
+            <p className="mission mt-4">Be the change</p>
           </motion.div>
         </center>
       </div>
@@ -406,7 +406,7 @@ export default function About() {
       </div>
       <div className="div">
         <div className="flex cofounders justify-between">
-          <p className="cofounderz">Meet our cofounders</p>
+          <p className="cofounderz">Meet our Team</p>
           <button className="donte_ub flex">
             Get Started
             <div className="heart_div">

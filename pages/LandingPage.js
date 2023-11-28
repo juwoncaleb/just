@@ -484,14 +484,14 @@ export default function LandingPage() {
               duration: 0.6,
             }}
           >
-            <p className="VIDEO_TEXT">TESTIMONIAL</p>
+            {/* <p className="VIDEO_TEXT">TESTIMONIAL</p>
             <p className="mission mt-4">
               What hundreds of happy communites are saying
             </p>
-            {/* <p className="sub_video mt-4">
+            <p className="sub_video mt-4">
               consectetur adipiscing elit. Praesent gravida tempus viverra. Sed
               non pretium nibh, in tristique diam
-            </p> */}
+            </p>
           </motion.div>
 
           <div className="flex justify-center ppl div gap-14 mt-14 ">
@@ -563,7 +563,7 @@ export default function LandingPage() {
                 </p>
               </div>
             </motion.div>
-          </div>
+          </div> */}
           <div className="contribution gap-20 flex justify-center">
             <motion.div
               initial={{ opacity: 0, y: 30 }}

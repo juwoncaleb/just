@@ -1,6 +1,11 @@
 .project_img {
   width: 500px;
 }
+.declus {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
 .proj_card {
   max-width: 80%;
   background-color: #251600;
@@ -16,6 +21,9 @@
 .project_sub {
   font-family: "Archivo", sans-serif;
 }
+.small_img {
+  height: 300px;
+}
 .project_test {
   margin-top: 170px;
 }
@@ -29,6 +37,9 @@
   height: 1px;
   width: 100%;
   margin-bottom: 30px;
+}
+.indi{
+  max-width: 350px;
 }
 .donaa {
   text-align: left;
@@ -54,17 +65,16 @@
   }
 }
 @media only screen and (max-width: 1024px) {
-.proj_card {
-  max-width: 80%;
-  background-color: #251600;
-  color: white;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 80px;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+  .proj_card {
+    max-width: 80%;
+    background-color: #251600;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 80px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+  }
 }
-}
-
