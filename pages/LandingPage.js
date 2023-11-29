@@ -422,8 +422,7 @@ export default function LandingPage() {
           >
             <p className="VIDEO_TEXT">TAKE A LOOK AT OUT VIDEO</p>
             <p className="mission mt-4">
-              Our mission is to help all the people in need
-            </p>
+            Turning the page of e waste with purpose              </p>
 
             <Link href="./donate">
               <button className="donte_ub mt-10 flex">

@@ -396,8 +396,7 @@ export default function Project() {
             }}
           >
             <p className="VIDEO_TEXT">Partner with us</p>
-            <p className="mission mt-4">Our mission is to help</p>
-            <p className="mission">all the people in need</p>
+            
             <p className="sub_video mt-4">
               We believe in the power of collaboration to drive positive change,
               <br /> Join the train{" "}
