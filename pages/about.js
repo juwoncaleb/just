@@ -13,7 +13,7 @@ import VoiceflowIntegration from "./components/Voice";
 export default function About() {
   return (
     <div className="about_suu">
-      <VoiceflowIntegration/>
+      <VoiceflowIntegration />
       <White />
       <div className="video_div">
         <center>
@@ -31,8 +31,11 @@ export default function About() {
             <p className="mission mt-4">Get to know us</p>
             <p className="mission mt-4">Be the change</p>
             <div className="sacri">
-            <p>Our mission is clear. Transforming Electronic device them from mere gadgets into agents of change. We focus on two pillars: environmental sustainability and community empowerment.</p>
-
+              <p>
+                Our mission is clear. Transforming Electronic device them from
+                mere gadgets into agents of change. We focus on two pillars:
+                environmental sustainability and community empowerment.
+              </p>
             </div>
           </motion.div>
         </center>
@@ -199,9 +202,7 @@ export default function About() {
         >
           <div className="div flex spon justify-between">
             <div>
-              <p className="sponsor_text">
-              Meet our current partners  
-                            </p>
+              <p className="sponsor_text">Meet our current partners</p>
 
               <div className="flex sub mt-10">
                 <div className="div_color flex">
@@ -219,13 +220,13 @@ export default function About() {
                 </div>
                 <p className="ml-4">
                   {" "}
-                  Demonstrate your commitment to environmental
-                        sustainability by  recycling 
-                        used devices.                 </p>
+                  Demonstrate your commitment to environmental sustainability by
+                  recycling used devices.{" "}
+                </p>
               </div>
             </div>
             <div className="grid grid-cols-3 gap-6 sponn">
-            <img className="company" src="./ec.png" />
+              <img className="company" src="./ec.png" />
               <img className="company" src="./doc.png" />
               <img className="company" src="./bb.jpg" />
             </div>
@@ -327,9 +328,7 @@ export default function About() {
           <img className="kidd_img" src="./l2.jpg" />
         </motion.div>
       </div>
-      <div className="justify-around  flex gap-10">
-       
-      </div>
+      <div className="justify-around  flex gap-10"></div>
       <div className="justify-around div sec  flex gap-10">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
@@ -433,8 +432,8 @@ export default function About() {
         >
           <div className="founder">
             <img className="fo" src="./w.jpeg" />
-            <p className="found_name">Marina Troy</p>
-            <p>Olajide Deborah</p>
+            <p className="found_name">Olajide Deborah</p>
+            <p>Program Manager Lead</p>
             {/* <div className="flex ml-8 mt-3">
               <div className="socia">
                 <img
@@ -480,7 +479,9 @@ export default function About() {
           <div className="founder">
             <img className="fo" src="./c.png" />
             <p className="found_name">Chris wise</p>
-{/*            
+            <p>COO/Business Development Head</p>
+
+            {/*            
             <div className="flex ml-8 mt-3">
               <div className="socia">
                 <img
@@ -525,9 +526,10 @@ export default function About() {
         >
           <div className="founder">
             <img className="fo" src="./t.jpeg" />
-            <p className="found_name">
-Oreolorun Titobi</p>
-           
+            <p className="found_name">Oreolorun Titobi</p>
+            <p>CEO/Founder</p>
+
+
             {/* <div className="flex ml-8 mt-3">
               <div className="socia">
                 <img
@@ -561,18 +563,18 @@ Oreolorun Titobi</p>
         </motion.div>
       </div>
       <center>
-      <div className="flex justify-around div newsletter">
-        <div className="subscribe text-center mt-6">
-          <p>Let us keep </p>
-          <p>in Touch</p>
-          <img className="sun " src="./sun.png" />
+        <div className="flex justify-around div newsletter">
+          <div className="subscribe text-center mt-6">
+            <p>Let us keep </p>
+            <p>in Touch</p>
+            <img className="sun " src="./sun.png" />
+          </div>
+          <div className="mt-8">
+            <input placeholder="Enter your email address" className="inoutt" />
+            <button className="subscribe_btn">Subscribe</button>
+            <img className="flowe" src="./flower.png" />
+          </div>
         </div>
-        <div className="mt-8">
-          <input placeholder="Enter your email address" className="inoutt" />
-          <button className="subscribe_btn">Subscribe</button>
-          <img className="flowe" src="./flower.png" />
-        </div>
-      </div>
       </center>
       <Footer />
     </div>
