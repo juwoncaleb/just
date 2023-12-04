@@ -880,6 +880,11 @@
   padding: 20px;
 }
 
+.sacri {
+  margin-top: 20px;
+  max-width: 500px;
+}
+
 .kidd_sub {
   font-size: 24px;
 }
@@ -978,6 +983,13 @@
   justify-items: center;
   align-items: center;
   align-content: center;
+}
+
+.kidd_img {
+  border: 8px solid black;
+  border-radius: 20px;
+  width: 550px;
+  height: 450px;
 }
 
 @media only screen and (max-width: 1024px) {

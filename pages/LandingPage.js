@@ -59,7 +59,7 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="mt-16 coll flex">
-                <img className="butt" src="./butter.png"/>
+                <img className="butt" src="./butter.png" />
                 <Link href="./donate">
                   <button className="donte_sub flex">
                     Donate
@@ -70,13 +70,15 @@ export default function LandingPage() {
                   <p className="text-center floow">Follow us</p>
                   <div className="flex ml-8 mt-3">
                     <div className="socia">
-                      <img
-                        className="ml-1 mt-1 mr-1"
-                        width="25"
-                        height="50"
-                        src="https://img.icons8.com/ios-filled/50/1A1A1A/instagram-new--v1.png"
-                        alt="instagram-new--v1"
-                      />
+                      <Link href="https://www.instagram.com/justused_tech/">
+                        <img
+                          className="ml-1 mt-1 mr-1"
+                          width="25"
+                          height="50"
+                          src="https://img.icons8.com/ios-filled/50/1A1A1A/instagram-new--v1.png"
+                          alt="instagram-new--v1"
+                        />
+                      </Link>
                     </div>
                     <div className="socia">
                       <img
@@ -88,13 +90,15 @@ export default function LandingPage() {
                       />
                     </div>
                     <div className="socia">
-                      <img
-                        className="ml-1 mt-1 mr-1"
-                        width="25"
-                        height="48"
-                        src="https://img.icons8.com/fluency-systems-regular/48/1A1A1A/linkedin.png"
-                        alt="linkedin"
-                      />
+                      <Link href="https://www.linkedin.com/company/justused-tech/mycompany/?viewAsMember=true">
+                        <img
+                          className="ml-1 mt-1 mr-1"
+                          width="25"
+                          height="48"
+                          src="https://img.icons8.com/fluency-systems-regular/48/1A1A1A/linkedin.png"
+                          alt="linkedin"
+                        />
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -115,7 +119,11 @@ export default function LandingPage() {
             <div className="flex div hero_tab">
               <img className="sun" src="./sun.png" />
               <div>
-              <img className="hero" src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
+                <img
+                  className="hero"
+                  src={images[currentImageIndex]}
+                  alt={`Image ${currentImageIndex + 1}`}
+                />
               </div>{" "}
             </div>
           </motion.div>
@@ -188,9 +196,7 @@ export default function LandingPage() {
         >
           <div className="div flex spon justify-between">
             <div>
-              <p className="sponsor_text">
-                Redefining the life cycle of electronic devices{" "}
-              </p>
+              <p className="sponsor_text">Meet our current partners </p>
 
               <div className="flex sub mt-10">
                 <div className="div_color flex">
@@ -208,16 +214,15 @@ export default function LandingPage() {
                 </div>
                 <p className="ml-4">
                   {" "}
-                  Demonstrate your commitment to environmental
-                        sustainability by  recycling 
-                        used devices.                </p>
+                  Demonstrate your commitment to environmental sustainability by
+                  recycling used devices.{" "}
+                </p>
               </div>
             </div>
             <div className="grid grid-cols-3 gap-6 sponn">
               <img className="company" src="./ec.png" />
               <img className="company" src="./doc.png" />
               <img className="company" src="./bb.jpg" />
-             
             </div>
           </div>
         </motion.div>
@@ -254,18 +259,15 @@ export default function LandingPage() {
                 Accomplished <br />
                 great result
               </p>
-              <div className="accom_div mt-6">
-             
-              </div>
+              <div className="accom_div mt-6"></div>
               <div className="testi mt-10 flex">
                 <img className="left" src="./left.png" />
                 <div className="flex testimo_text mt-8">
-                  <img className="babe mr-4 ml-1" src="./babe.jpg" />
+                  <img className="babe mr-4 ml-1" src="./c.png" />
                   <div>
                     <p> Make big changes and help the world </p>
                     <p>
-                      <span className="officer mt-2">Andry Polar</span> Donation
-                      Officer
+                      <span className="officer mt-2">Chris wise</span>
                     </p>
                   </div>
                 </div>
@@ -422,7 +424,8 @@ export default function LandingPage() {
           >
             <p className="VIDEO_TEXT">TAKE A LOOK AT OUT VIDEO</p>
             <p className="mission mt-4">
-            Turning the page of e waste with purpose              </p>
+              Turning the page of E-waste with purpose{" "}
+            </p>
 
             <Link href="./donate">
               <button className="donte_ub mt-10 flex">
@@ -575,7 +578,7 @@ export default function LandingPage() {
                 duration: 0.6,
               }}
             >
-              <img className="sad" src="./sad.jpg" />
+              <img className="sad" src="./mu.jpg" />
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -617,7 +620,7 @@ export default function LandingPage() {
           </div> */}
         </center>
       </div>
-      <VoiceflowIntegration/>
+      <VoiceflowIntegration />
       <Footer />
     </div>
   );

@@ -31,9 +31,7 @@ export default function Donate() {
               <p className="instruction">
                 Please click the button below to donate money
               </p>
-              <Link
-                href="              https://tinyurl.com/justusedtech-donate
-"
+              <Link href="https://tinyurl.com/justusedtech-donate"
               >
                 <button className="donte_subl flex">
                   Donate
@@ -42,7 +40,7 @@ export default function Donate() {
               </Link>
             </div>
 
-            <div className="donate_card">
+            {/* <div className="donate_card">
               <img
                 width="100"
                 height="100"
@@ -60,107 +58,176 @@ export default function Donate() {
                   <img className="ml-1" src="./arrow.png" />
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </center>
       </div>
-      <div className=" proj ">
+      <div className=" proj  ">
         <div className="div project flex justify-center">
-          <div className="accom mr-14">
-            <p className="success">SUCCESSFUL PROJECTS</p>
-            <p className="results mt-6">
-              Accomplished <br />
-              great result
-            </p>
-            <div className="accom_div mt-6">
-              <p>
-                Omne animal, simul atque in gravissimo bello animadversionis
-                metu degendae filium.
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 100,
+              damping: 10,
+              duration: 0.6,
+            }}
+          >
+            <div className="accom mr-14">
+              <p className="success">SUCCESSFUL PROJECTS</p>
+              <p className="results mt-6">
+                Accomplished <br />
+                great result
               </p>
+              <div className="accom_div mt-6"></div>
+              <div className="testi mt-10 flex">
+                <img className="left" src="./left.png" />
+                <div className="flex testimo_text mt-8">
+                  <img className="babe mr-4 ml-1" src="./c.png" />
+                  <div>
+                    <p> Make big changes and help the world </p>
+                    <p>
+                      <span className="officer mt-2">Chris wise</span>
+                    </p>
+                  </div>
+                </div>
+                <img className="lil" src="./lil.png" />
+              </div>
+              <img className="kids" src="./kids.png" />
             </div>
-            <div className="testi mt-10 flex">
-              <img className="left" src="./left.png" />
-              <div className="flex testimo_text mt-8">
-                <img className="babe mr-4 ml-1" src="./babe.jpg" />
-                <div>
-                  <p> Make big changes and help the world </p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 100,
+              damping: 10,
+              duration: 0.6,
+            }}
+          >
+            <div className="grid grid-cols-2 md:ml-12 child  gap-8">
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 10,
+                }}
+              >
+                <div className="card">
+                  {" "}
+                  <center>
+                    <img
+                      width="50"
+                      className="mb-6"
+                      height="64"
+                      src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/ff6803/external-school-city-scape-xnimrodx-lineal-xnimrodx.png"
+                      alt="external-school-city-scape-xnimrodx-lineal-xnimrodx"
+                    />
+                  </center>
+                  <p className="mb-2 card_head">What We Do</p>
                   <p>
-                    <span className="officer mt-2">Andry Polar</span> Donation
-                    Officer
+                    Our mission is clear. Transforming Electronic device them
+                    from mere gadgets into agents of change. We focus on two
+                    pillars: environmental sustainability and community
+                    empowerment.
                   </p>
                 </div>
-              </div>
-              <img className="lil" src="./lil.png" />
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 10,
+                  duration: 0.3,
+                }}
+              >
+                <div className="card">
+                  <center>
+                    <img
+                      className="mb-6"
+                      width="50"
+                      height="50"
+                      src="https://img.icons8.com/ios/50/ff6803/read.png"
+                      alt="read"
+                    />
+                  </center>
+                  <p className="mb-2 card_head">How we do it:</p>
+                  <p>
+                    Our story is marked by tangible milestones that showcase the
+                    real impact of our hard work. From empowering over 7,000
+                    individuals in Africa to providing 20 corporate
+                  </p>
+                </div>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 10,
+                  duration: 0.6,
+                }}
+              >
+                <div className="card">
+                  <center>
+                    <img
+                      className="mb-6"
+                      width="50"
+                      height="64"
+                      src="https://img.icons8.com/laces/64/ff6803/like.png"
+                      alt="like"
+                    />
+                  </center>
+                  <p className="mb-2 card_head">Environmental Sustainability</p>
+                  <p>
+                    Leveraging cutting-edge technology solutions, we actively
+                    engage in a circular economy, reducing electronic waste, and
+                    cultivating a sustainable future.
+                  </p>
+                </div>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 10,
+                  duration: 0.6,
+                }}
+              >
+                <div className="card">
+                  <center>
+                    <img
+                      className="mb-6"
+                      width="50"
+                      height="50"
+                      src="https://img.icons8.com/ios/50/ff6803/trust--v1.png"
+                      alt="trust--v1"
+                    />
+                  </center>
+                  <p className="mb-2 card_head">Community Empowerment</p>
+                  <p>
+                    Founded on the belief in sustainability and community
+                    empowerment, our journey extends beyond being a venture.
+                    {/* At
+                  Just Used, we are committed to environmental sustainability
+                  and digital inclusion, striving to create a future where
+                  technology is accessible to all. */}
+                  </p>
+                </div>
+              </motion.div>
             </div>
-            <img className="kids" src="./kids.png" />
-          </div>
-          <div className="grid grid-cols-2 md:ml-12 child  gap-8">
-            <div className="card">
-              {" "}
-              <center>
-                <img
-                  width="50"
-                  className="mb-6"
-                  height="64"
-                  src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/ff6803/external-school-city-scape-xnimrodx-lineal-xnimrodx.png"
-                  alt="external-school-city-scape-xnimrodx-lineal-xnimrodx"
-                />
-              </center>
-              <p className="mb-2 card_head">SCHOOOLS</p>
-              <p>
-                Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-                tum etiam.
-              </p>
-            </div>
-            <div className="card">
-              <center>
-                <img
-                  className="mb-6"
-                  width="50"
-                  height="64"
-                  src="https://img.icons8.com/laces/64/ff6803/like.png"
-                  alt="like"
-                />
-              </center>
-              <p className="mb-2 card_head">LOVE</p>
-              <p>
-                Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-                tum etiam.
-              </p>
-            </div>
-            <div className="card">
-              <center>
-                <img
-                  className="mb-6"
-                  width="50"
-                  height="50"
-                  src="https://img.icons8.com/ios/50/ff6803/trust--v1.png"
-                  alt="trust--v1"
-                />
-              </center>
-              <p className="mb-2 card_head">CARE</p>
-              <p>
-                Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-                tum etiam.
-              </p>
-            </div>
-            <div className="card">
-              <center>
-                <img
-                  className="mb-6"
-                  width="50"
-                  height="50"
-                  src="https://img.icons8.com/ios/50/ff6803/read.png"
-                  alt="read"
-                />
-              </center>
-              <p className="mb-2 card_head">LEARN</p>
-              <p>
-                Omne animal, simul atque in dolorus impact. Hanc cam memoriter,
-                tum etiam.
-              </p>
-            </div>
-          </div>
+          </motion.div>
         </div>
       </div>
       <div className="flex justify-around div newsletter">
@@ -175,7 +242,7 @@ export default function Donate() {
           <img className="flowe" src="./flower.png" />
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

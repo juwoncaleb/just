@@ -33,12 +33,11 @@ export default function Project() {
             >
               <div className="div flex spon justify-between">
                 <div>
-
                   <div className="">
                     <div className="flex sub mt-10">
                       <div className="div_color flex">
                         <img className="check mr-4" src="./check.png" />
-                    </div>
+                      </div>
                       <p className="ml-4"> Data sanitization and security</p>
                     </div>
                     <div className="flex sub mt-2">
@@ -91,8 +90,7 @@ export default function Project() {
                   </div>
                 </div>
                 <div className=" sponn">
-                <img className="sad" src="./l5.jpg" />
-
+                  <img className="sad" src="./l5.jpg" />
                 </div>
               </div>
             </motion.div>
@@ -328,60 +326,121 @@ export default function Project() {
                 </p>
               </div>
             </motion.div>
+            <div className="flex proje_test justify-center gap-10 mt-20 ">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: "spring",
+                stiffness: 100,
+                damping: 10,
+                duration: 0.6,
+              }}
+            >
+              <div className="testimonal_card">
+              
+                <a
+                  href=""
+                  className="group relative block h-64 sm:h-80 lg:h-96"
+                >
+                  <span className="absolute inset-0 border-2 border-dashed border-black"></span>
 
-            <div className="   gap-20 mt-10 ">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{
-                  type: "spring",
-                  stiffness: 100,
-                  damping: 10,
-                  duration: 0.6,
-                }}
-              >
-                <div className="flex sop mt-20 justify-center gap-10">
-                  <div className="indi">
-                    <p className="text-center declus mt-8 text-2xl">
+                  <div className="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+                    <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
+                      <img
+                        width="50"
+                        height="48"
+                        src="https://img.icons8.com/pulsar-color/48/environment.png"
+                        alt="environment"
+                      />
+                      <h2 className="mt-4 text-xl font-medium sm:text-2xl">
                       Declutter Responsibly{" "}
-                    </p>
-                    <p className="mb-8">
-                      Clear out unused devices responsibly, contributing to a
-                      sustainable tech ecosystem.
-                    </p>
-                  </div>
-                  <img className="small_img" src="./l3.jpg" />
-                </div>
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{
-                  type: "spring",
-                  stiffness: 100,
-                  damping: 10,
-                  duration: 0.6,
-                }}
-              >
-                <div className="flex sop mt-20 justify-center gap-20 mt-14">
-                  <img className="small_img" src="./l6.jpg" />
+                      </h2>
+                    </div>
 
-                  <div className="indi">
-                    <p className="text-center declus mt-8 text-2xl">
-                      Humanitarian Impact
-                    </p>
-                    <p className="mb-8">
+                    <div className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 ">
+                      <h3 className="mt-4 text-xl font-medium sm:text-2xl">
+                      Declutter Responsibly{" "}
+                      </h3>
+
+                      <p className="mt-4 text-sm sm:text-base text-left">
+                      Clear out unused devices responsibly, contributing to
+                          a sustainable tech ecosystem.
+                      </p>
+
+                      <p className="mt-8 font-bold">Read more</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: "spring",
+                stiffness: 100,
+                damping: 10,
+                duration: 0.6,
+                delay: 0.2,
+              }}
+            >
+              <div className="testimonal_card">
+               
+
+                <a
+                  href=""
+                  className="group relative block h-64 sm:h-80 lg:h-96"
+                >
+                  <span className="absolute inset-0 border-2 border-dashed border-black"></span>
+
+                  <div className="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+                    <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
+                      <img
+                        width="50"
+                        height="64"
+                        src="https://img.icons8.com/external-wanicon-two-tone-wanicon/64/external-saving-money-currency-wanicon-two-tone-wanicon.png"
+                        alt="external-saving-money-currency-wanicon-two-tone-wanicon"
+                      />
+
+                      <h2 className="mt-4 text-xl font-medium sm:text-2xl">
+                        Humanitarian Impact
+                      </h2>
+                    </div>
+
+                    <div className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 ">
+                      <h3 className="mt-4 text-xl font-medium sm:text-2xl">
+                        Humanitarian Impact
+                      </h3>
+
+                      <p className="mt-4 text-sm sm:text-base text-left">
                       Your donation directly empowers young adults by providing
                       them with access to technology, fostering digital literacy
                       and career opportunities.
-                    </p>
-                  </div>
-                </div>
-              </motion.div>
-            </div>
-          </div>
+                      </p>
 
-         
+                      <p className="mt-8 font-bold">Read more</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                type: "spring",
+                stiffness: 100,
+                damping: 10,
+                duration: 0.6,
+                delay: 0.6,
+              }}
+            >
+          
+            </motion.div>
+          </div>
+          
+          </div>
         </center>
 
         <center className="project_test">
@@ -396,7 +455,7 @@ export default function Project() {
             }}
           >
             <p className="VIDEO_TEXT">Partner with us</p>
-            
+
             <p className="sub_video mt-4">
               We believe in the power of collaboration to drive positive change,
               <br /> Join the train{" "}
