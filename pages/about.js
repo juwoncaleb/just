@@ -530,7 +530,6 @@ export default function About() {
             <p className="found_name">Oreolorun Titobi</p>
             <p>CEO/Founder</p>
 
-
             {/* <div className="flex ml-8 mt-3">
               <div className="socia">
                 <img
