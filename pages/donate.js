@@ -29,7 +29,7 @@ export default function Donate() {
               />
               <p className="devices">DEVICES</p>
               <p className="instruction">
-                Please click the button below to donate money
+                Please click the button below to donate devices
               </p>
               <Link href="https://tinyurl.com/justusedtech-donate"
               >
@@ -159,7 +159,7 @@ export default function Donate() {
                     />
                   </center>
                   <p className="mb-2 card_head">How we do it:</p>
-                  <p>
+                  <p className="mb-4">
                     Our story is marked by tangible milestones that showcase the
                     real impact of our hard work. From empowering over 7,000
                     individuals in Africa to providing 20 corporate
@@ -216,7 +216,7 @@ export default function Donate() {
                     />
                   </center>
                   <p className="mb-2 card_head">Community Empowerment</p>
-                  <p>
+                  <p className="mb-8">
                     Founded on the belief in sustainability and community
                     empowerment, our journey extends beyond being a venture.
                     {/* At

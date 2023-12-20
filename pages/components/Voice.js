@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
-const VoiceflowIntegration = () => {
+const VoiceflowIntegration  = () => {
   useEffect(() => {
     const script = document.createElement('script');
     script.onload = () => {
